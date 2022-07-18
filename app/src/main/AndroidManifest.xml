@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.upenn.cis350.group1.calorietracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/main_activity_label" />
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/calendar_activity_label" />
+        <activity
+            android:name=".ProgressActivity"
+            android:label="@string/progress_activity_label" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings_activity_label" />
+        <activity
+            android:name=".WeightTrackingActivity"
+            android:label="@string/weight_activity_label" />
+        <activity android:name=".InputActivity" />
+        <activity
+            android:name=".DailyActivity"
+            android:label="@string/daily_activity_label">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

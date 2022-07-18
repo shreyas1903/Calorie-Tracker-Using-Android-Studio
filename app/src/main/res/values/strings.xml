@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Calorie Tracker</string>
+    <string name="menu_calendar_label">Calendar</string>
+    <string name="menu_today_label">Today</string>
+    <string name="menu_settings_label">Settings</string>
+    <string name="daily_activity_label">Daily</string>
+    <string name="main_activity_label">Main Menu</string>
+    <string name="settings_activity_label">Settings</string>
+    <string name="calendar_activity_label">Calendar</string>
+    <string name="progress_activity_label">Daily Progress</string>
+    <string name="weight_activity_label">Weight Tracking</string>
+    <string name="to_main">Main Menu</string>
+    <string name="month_label">Month YEAR</string>
+    <string name="sun">S</string>
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thu">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+    <string name="daily_caloric_limit">Enter desired daily calorie intake:</string>
+    <string name="daily_protein_limit">Enter desired daily protein intake:</string>
+    <string name="daily_fat_limit">Enter desired daily fat intake:</string>
+    <string name="daily_carb_limit">Enter desired daily carbohydrate intake:</string>
+    <string name="daily_sodium_limit">Enter desired daily sodium intake:</string>
+    <string name="save_settings">Update Settings</string>
+    <string name="menu_weight_label">Weight Tracking</string>
+    <string name="menu_progress_label">Daily Progress</string>
+    <string name="menu_photo_label">Track Progress with Photo</string>
+    <string-array name="meal_type_options">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snacks</item>
+    </string-array>
+    <string name="take_photo">Take Photo</string>
+    <string name="recorded_weights">Recorded Weights</string>
+</resources>
